@@ -11,7 +11,7 @@ server.use(bodyParser.json())
 server.use(allowCors)
 server.use(queryParser())
 server.listen(port, function () {
-    console.log(`Servidor Rondando na Porta ${port}`);
+    console.log(`servidor rodando na porta ${port}`);
 
 })
 
